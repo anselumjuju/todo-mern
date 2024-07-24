@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Todo = ({ todo, index, onDelete, onUpdate }) => {
-	console.log(todo)
 	return (
 		<tr className="bg-white border-b ">
 			<th scope="row" className={`px-6 py-4 font-medium text-gray-900 whitespace-nowrap ${todo.isCompleted ? 'line-through' : ''}`}>
